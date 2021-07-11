@@ -170,3 +170,41 @@ body{
     color: black;
     transition: .5s;
 }
+
+@media screen and (max-width: 420px){
+    body{
+        flex-direction: column;
+    }
+
+    .music-container-wrapper{
+        font-size: 15px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        /* margin-left: 105px; */
+        width: 100%;
+    }
+
+    .music-container{
+        padding: 10px 15px;
+        margin: 80px 0;
+    }
+
+    .img-container img{
+        left: 20px;
+    }
+    
+    .img-container::after{
+        left: 69%;
+        bottom: 55%;
+    }
+
+    .playlist-info-wrapper{
+        width: 100%;
+        align-items: start;
+    }
+
+    .playlist-info{
+
+    }
+}
